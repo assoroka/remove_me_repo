@@ -1,5 +1,6 @@
 package org.example;
 
+import static java.lang.System.out;
 public abstract class PcComponent {
     private String brand;
     private String model;
@@ -48,7 +49,7 @@ public abstract class PcComponent {
     }
 
     public void displayInformation() {
-        System.out.println("Компонент: " + brand + " " + model + ", Ціна: " + price + " USD");
+        out.println("Компонент: " + brand + " " + model + ", Ціна: " + price + " USD");
     }
 
     public abstract void connect();
