@@ -20,7 +20,7 @@ public class Main {
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 
-        // 3. 10-кратне написання
+    
         for (int i = 0; i < 10; i++) {
             for (WritingTool tool : tools) {
                 int len = rand.nextInt(3) + 3;
